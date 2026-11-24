@@ -1,16 +1,34 @@
-# React + Vite
+# 🏡 Casa Lulu - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interfaccia utente moderna e reattiva sviluppata in **React** per la gestione e la visualizzazione del frontend dell'applicazione **Casa Lulu**. Il progetto sfrutta un design pulito basato su **Bootstrap 5** e comunica con il backend tramite **Axios**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Caratteristiche Principali
 
-## React Compiler
+- **Interfaccia Moderna:** Design responsive e intuitivo realizzato con **Bootstrap (^5.3.9)**.
+- **Comunicazione Asincrona:** Utilizzo di **Axios** per gestire le richieste HTTP verso le API del backend.
+- **Sviluppo Rapido:** Configurato con **Vite** per un hot-reload istantaneo e build di produzione altamente ottimizzate.
+- **Architettura Modulare:** Componenti React riutilizzabili per una manutenzione del codice pulita ed efficiente.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tecnologie Utilizzate
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Il progetto integra i seguenti strumenti e librerie:
+
+- **React (^19.3.1)** - Libreria principale per la costruzione dell'interfaccia utente.
+- **Bootstrap (^5.3.9)** - Framework CSS per layout e componenti responsive.
+- **Axios (^1.21.1)** - Client HTTP per le chiamate API asincrone.
+- **Vite (^8.3.6)** - Build tool e dev server ultra-rapido.
+- **ESLint** - Per il controllo della qualità e la formattazione del codice.
+
+---
+
+## ⚙️ Requisiti di Sistema
+
+Prima di procedere all'installazione, assicurati di avere installato sul tuo computer:
+- **Node.js** (versione 18 o superiore consigliata)
+- **npm** (o un package manager compatibile)
+
+---
