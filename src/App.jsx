@@ -244,7 +244,7 @@ export default function App() {
                     <select
                       value={ospiti}
                       onChange={(e) => setOspiti(Number(e.target.value))}
-                      className="form-select form-select-sm border-0 bg-transparent p-0 shadow-none"
+                      className="form-select form-select-sm border-0 p-0 bg-light shadow-none greyBG"
                     >
                       {[...Array(struttura.ospiti_massimi)].map((_, i) => (
                         <option key={i + 1} value={i + 1}>{i + 1} ospit{i > 0 ? 'i' : 'e'}</option>
